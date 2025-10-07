@@ -1,0 +1,79 @@
+[
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-1.png",
+    "title": "Dashboard Image",
+    "codeSource": "https://github.com/mohamedEssamMo/HTML-CSS_Template_7",
+    "demoLink": "https://html-css-template-7.vercel.app/",
+    "body": "A responsive dashboard layout with sidebar navigation and card-based content panels."
+  },
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-2.png",
+    "title": "Bondi Landing Page",
+    "codeSource": "https://github.com/mohamedEssamMo/Bondi",
+    "demoLink": "https://bondi-roan.vercel.app/",
+    "body": "A modern landing page with full-width hero, service sections, and call to action for a creative studio."  
+  },
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-3.png",
+    "title": "Finder-Contractors---Homepage",
+    "codeSource": "https://github.com/mohamedEssamMo/Finder-Contractors---Homepage",
+    "demoLink": "https://finder-contractors-homepage-three.vercel.app/",
+    "body": "A contractors directory style homepage featuring listings, filters, and a clean UI."  
+  },
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-4.png",
+    "title": "Memory Game",
+    "codeSource": "https://github.com/mohamedEssamMo/myMemoryGame",
+    "demoLink": "https://my-memory-game-peach.vercel.app/",
+    "body": "An interactive memory matching game with a playful, colorful design."  
+  },
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-5.png",
+    "title": "ElZero",
+    "codeSource": "https://github.com/mohamedEssamMo/HTML-CSS_Template_3",
+    "demoLink": "https://html-css-template-3-pi.vercel.app/",
+    "body": "A polished landing page template built around the ElZero branding aesthetic."  
+  },
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-6.png",
+    "title": "Portfolio home page",
+    "codeSource": "https://github.com/mohamedEssamMo/HTML-CSS_Template_6",
+    "demoLink": "https://html-css-template-6.vercel.app/",
+    "body": "A personal portfolio homepage with project showcases and minimal layout."  
+  },
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-7.png",
+    "title": "Restaurant",
+    "codeSource": "https://github.com/mohamedEssamMo/HTML-CSS_Template_4",
+    "demoLink": "https://html-css-template-4.vercel.app/",
+    "body": "A restaurant theme website template featuring menu, gallery and reservation section."  
+  },
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-8.png",
+    "title": "Kasper",
+    "codeSource": "https://github.com/mohamedEssamMo/HTML-CSS_Template_2",
+    "demoLink": "https://html-css-template-2-five.vercel.app/",
+    "body": "A sleek one-page design focusing on visuals, services, and call-to-action."  
+  },
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-9.png",
+    "title": "Travel Poster",
+    "codeSource": "https://github.com/mohamedEssamMo/HTML-CSS_Template_1",
+    "demoLink": "https://html-css-template-1-puce.vercel.app/",
+    "body": "A visual travel poster style layout with bold imagery and minimal text."  
+  },
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-10.png",
+    "title": "Portfolio Website",
+    "codeSource": "https://github.com/mohamedEssamMo/HTML-CSS_Template_5",
+    "demoLink": "https://html-css-template-5.vercel.app/",
+    "body": "A full portfolio site template showcasing multiple projects, testimonials, and contact form."  
+  },
+  {
+    "imageSrc": "assets/img/portfolio/portfolio-11.png",
+    "title": "Login Page",
+    "codeSource": "https://github.com/mohamedEssamMo/HTML-CSS_Template_8",
+    "demoLink": "https://html-css-template-8.vercel.app/",
+    "body": "A clean and modern login/authentication page design with form and branding."  
+  }
+]
