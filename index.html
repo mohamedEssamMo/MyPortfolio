@@ -26,6 +26,7 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
+  
   <link href="assets/css/Fares-style.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -488,44 +489,67 @@
 
 
     <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio section">
+    <section id="portfolio" class="portfolio py-5">
 
       <!-- Section Title -->
-      <div class="container section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
-        <div class="title-shape">
-          <svg viewBox="0 0 200 20" xmlns="http://www.w3.org/2000/svg">
-            <path d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10" fill="none" stroke="currentColor" stroke-width="2"></path>
+      <div class="container text-center mb-5" data-aos="fade-up">
+        <h2 class="fw-bold">Portfolio</h2>
+
+        <div class="d-flex justify-content-center my-2">
+          <svg width="200" height="20" xmlns="http://www.w3.org/2000/svg">
+            <path 
+              d="M 0,10 C 40,0 60,20 100,10 C 140,0 160,20 200,10"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            ></path>
           </svg>
         </div>
-        <p>A collection of my frontend projects showcasing my work in responsive design, clean layouts, and interactive user
-        experiences built with modern web technologies.</p>
-      </div><!-- End Section Title -->
+
+        <p class="text-muted mx-auto" style="max-width: 650px;">
+          Discover a curated selection of my frontend projects, featuring responsive designs,
+          polished layouts, and interactive user experiences built with modern web technologies.
+        </p>
+      </div>
+      <!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+        <div class="isotope-layout" 
+            data-default-filter="*" 
+            data-layout="masonry" 
+            data-sort="original-order">
 
-          <!-- <div class="portfolio-filters-container" data-aos="fade-up" data-aos-delay="200">
-            <ul class="portfolio-filters isotope-filters">
-              <li data-filter="*" class="filter-active">All Work</li>
-              <li data-filter=".filter-web"></li>
-              <li data-filter=".filter-graphics"></li>
-              <li data-filter=".filter-motion"></li>
-              <li data-filter=".filter-brand"></li>
+          <!-- Optional Filtering -->
+          <!--
+          <div class="text-center mb-4" data-aos="fade-up" data-aos-delay="150">
+            <ul class="list-inline portfolio-filters isotope-filters">
+              <li class="list-inline-item px-3 py-2 filter-active" data-filter="*">All Projects</li>
+              <li class="list-inline-item px-3 py-2" data-filter=".filter-web">Web Apps</li>
+              <li class="list-inline-item px-3 py-2" data-filter=".filter-ui">UI/UX</li>
+              <li class="list-inline-item px-3 py-2" data-filter=".filter-motion">Animations</li>
             </ul>
-          </div> -->
+          </div>
+          -->
 
-          <div id="PortfolioItems" class="row g-4 isotope-container" data-aos="fade-up" style="height: auto !important;" data-aos-delay="300">
-
-
-          </div><!-- End Portfolio Container -->
+          <!-- Portfolio Items -->
+          <div 
+            id="PortfolioItems" 
+            class="row g-4 isotope-container"
+            data-aos="fade-up" 
+            data-aos-delay="200"
+          >
+            <!-- Dynamic project cards will be inserted here -->
+          </div>
+          <!-- End Portfolio Items -->
 
         </div>
 
       </div>
 
-    </section><!-- /Portfolio Section -->
+    </section>
+    <!-- /Portfolio Section -->
+
 
 
     <!-- Services Section -->

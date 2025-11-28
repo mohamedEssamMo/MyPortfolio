@@ -153,23 +153,122 @@
   height: auto !important;
 }
 
-.portfolio .portfolio-card .portfolio-overlay .portfolio-actions {
-  transform: translateY(20px);
-  transition: all 0.4s ease-in-out;
-  display: flex;
-  gap: 15px;
-  border-radius: none !important;
+.portfolio .portfolio-card {
+  background: var(--surface-color);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 100%;
+  position: relative;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
 }
 
-.portfolio .portfolio-card .portfolio-overlay .portfolio-actions a {
-  background-color: var(--surface-color);
+.portfolio .portfolio-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.15);
+}
+
+.portfolio .portfolio-image {
+  position: relative;
+  overflow: hidden;
+  aspect-ratio: 16/10;
+}
+
+.portfolio .portfolio-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.portfolio .portfolio-card:hover .portfolio-image img {
+  transform: scale(1.1);
+}
+
+.portfolio .portfolio-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(2px);
+}
+
+.portfolio .portfolio-card:hover .portfolio-overlay {
+  opacity: 1;
+}
+
+.portfolio .portfolio-actions {
+  transform: translateY(20px);
+  transition: all 0.3s ease;
+}
+
+.portfolio .portfolio-card:hover .portfolio-actions {
+  transform: translateY(0);
+}
+
+.portfolio .portfolio-actions .Demo-project {
+  width: 50px;
+  height: 50px;
+  background: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   color: var(--accent-color);
-  font-size: 20px;
+  font-size: 24px;
   transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.portfolio .portfolio-actions .Demo-project:hover {
+  background: var(--accent-color);
+  color: white;
+  transform: scale(1.1);
+}
+
+.portfolio .portfolio-content {
+  padding: 25px;
+}
+
+.portfolio .portfolio-content h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--heading-color);
+}
+
+.portfolio .portfolio-content p {
+  font-size: 15px;
+  color: color-mix(in srgb, var(--default-color), transparent 30%);
+  margin-bottom: 20px;
+  line-height: 1.6;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.portfolio .portfolio-links {
+  border-top: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  padding-top: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.portfolio .portfolio-links a {
+  color: var(--heading-color);
+  font-size: 20px;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-links a:hover {
+  color: var(--accent-color);
 }
 
 /*# sourceMappingURL=Fares-style.css.map */

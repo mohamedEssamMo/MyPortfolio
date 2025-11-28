@@ -1,5 +1,26 @@
 [
   {
+    "imageSrc": "assets/img/portfolio/MentoringPlatform.png",
+    "title": "MentorMatch — Full-stack MERN Mentoring Platform",
+    "codeSource": "https://github.com/mohamedEssamMo/Mentoring_platform",
+    "demoLink": "https://mentoring-platform-topaz.vercel.app/",
+    "body": "A modern mentoring platform (backend + frontend) built with the MERN stack that supports many dynamic pages and flows: mentor discovery, booking, live sessions, group sessions, review system, payment, dashboards (mentor / mentee / admin), notifications, and analytics."
+  },
+  {
+    "imageSrc": "assets/img/portfolio/Store(adminPage).png",
+    "title": "A Store Admin Panel",
+    "codeSource": "https://github.com/mohamedEssamMo/Simple_Store",
+    "demoLink": "https://simple-store-smoky.vercel.app/",
+    "body": "A Store Admin Panel built using React and Tailwind CSS on the frontend, paired with a lightweight Express.js API and MongoDB database on the backend.This admin interface allows store managers to add, update, delete, and display products through a clean and efficient dashboard."
+  },
+  {
+    "imageSrc": "assets/img/portfolio/HealthCare.png",
+    "title": "HealthCare",
+    "codeSource": "https://github.com/mohamedEssamMo/MERN-Medicare-Booking-Website",
+    "demoLink": "https://mern-medicare-booking-website.vercel.app/",
+    "body": "A full-stack MERN application designed for seamless doctor appointment booking. Built with React, Node.js, Express, and MongoDB, the platform delivers secure user authentication, detailed doctor profiles, real-time scheduling, and reliable appointment management."
+  },
+  {
     "imageSrc": "assets/img/portfolio/portfolio-1.png",
     "title": "Dashboard Image",
     "codeSource": "https://github.com/mohamedEssamMo/HTML-CSS_Template_7",
