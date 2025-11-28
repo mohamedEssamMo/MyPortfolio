@@ -1232,8 +1232,7 @@ section,
   border-radius: none !important;
 }
 
-.portfolio .portfolio-card .portfolio-overlay .portfolio-actions a {
-  display: inline-block;
+.portfolio .portfolio-card .portfolio-overlay .portfolio-actions a{
   padding: 10px 20px;
   background-color: var(--accent-color);
   color: #fff;
@@ -1242,6 +1241,9 @@ section,
   font-weight: 500;
   text-decoration: none;
   transition: all 0.3s ease;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
